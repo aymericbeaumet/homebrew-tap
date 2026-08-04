@@ -1,11 +1,11 @@
-# This formula is automatically updated on every push to master. DO NOT EDIT.
+# This formula is automatically updated on every push to main. DO NOT EDIT.
 
 class SqueezeNightly < Formula
   desc "Extract rich information from any text (URIs, codetags, etc.) - nightly"
   homepage "https://github.com/aymericbeaumet/squeeze"
-  url "https://github.com/aymericbeaumet/squeeze/archive/eda7ad22875866a9040a08d2e626f63ff9984dca.tar.gz"
-  version "nightly-20260519-eda7ad2"
-  sha256 "90823eed8ef8cfcc852842b0eb4fec06f1fafab936b768e20165c1c6be0a9099"
+  url "https://github.com/aymericbeaumet/squeeze/archive/01597d988b74fa6edd642b5509398d249e3320c5.tar.gz"
+  version "nightly-20260804-01597d9"
+  sha256 "fc82d52ea1a11aab43f8015ea0d063672c8d3894ff68cac8542af7255d9d90a0"
   license "MIT"
 
   depends_on "rust" => :build
