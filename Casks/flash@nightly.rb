@@ -2,7 +2,7 @@
 
 cask "flash@nightly" do
   version "nightly-20260818-0b79a4bc"
-  sha256 "7172fa0046ad5f173f4daee0d5ea67cb80ba39216b56953bc626150f8ecd5ce4"
+  sha256 "d1b05b24482dfee7cb6e2af179ec67ed1610641f2a96d7034bdd9a1191c510af"
 
   url "https://github.com/aymericbeaumet/flash/releases/download/nightly/Flash-nightly-20260818-0b79a4bc.zip",
       verified: "github.com/aymericbeaumet/flash/"
