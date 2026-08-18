@@ -1,10 +1,10 @@
 # This cask is automatically updated by aymericbeaumet/flash. DO NOT EDIT.
 
 cask "flash@nightly" do
-  version "nightly-20260814-cc4d7c0d"
-  sha256 "2d0b5a0203c1b6caf179d7eb0e3d2535932069c2ee6f4d2340f55f6df4f441a5"
+  version "nightly-20260818-a001e809"
+  sha256 "14951ad28f64fbf177dd9fcf39af9fa91adc93b5cbd8ebe2fcbb5d3c38a1ff66"
 
-  url "https://github.com/aymericbeaumet/flash/releases/download/nightly/Flash-nightly-20260814-cc4d7c0d.zip",
+  url "https://github.com/aymericbeaumet/flash/releases/download/nightly/Flash-nightly-20260818-a001e809.zip",
       verified: "github.com/aymericbeaumet/flash/"
   name "Flash"
   desc "Headless hint overlay for macOS"
