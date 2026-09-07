@@ -1,8 +1,9 @@
 # homebrew-tap
 
-Custom [Homebrew Tap](https://docs.brew.sh/How-to-Create-and-Maintain-a-Tap) for
-my projects.
+Homebrew tap for [Flash](https://github.com/aymericbeaumet/flash), a macOS app.
 
-```
-brew tap aymericbeaumet/tap
+Install the nightly cask:
+
+```sh
+brew install --cask aymericbeaumet/tap/flash@nightly
 ```
