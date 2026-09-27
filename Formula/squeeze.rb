@@ -4,9 +4,9 @@
 class Squeeze < Formula
   desc "Extract rich information from any text (URIs, codetags, etc.)"
   homepage "https://github.com/aymericbeaumet/squeeze"
-  url "https://github.com/aymericbeaumet/squeeze/archive/refs/tags/v0.2.0.tar.gz"
-  version "0.2.0"
-  sha256 "8b933497dbef1272edae00d02879426723d3ea5f56b124518efa8fc958022b62"
+  url "https://github.com/aymericbeaumet/squeeze/archive/refs/tags/v0.3.0.tar.gz"
+  version "0.3.0"
+  sha256 "fb8926883583b443988dc275366fac4c72891bbb8f522a89c345ee7581510911"
   license "MIT"
   head "https://github.com/aymericbeaumet/squeeze.git", branch: "main"
 
