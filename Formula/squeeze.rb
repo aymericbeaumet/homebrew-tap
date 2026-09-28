@@ -6,7 +6,7 @@ class Squeeze < Formula
   homepage "https://github.com/aymericbeaumet/squeeze"
   url "https://github.com/aymericbeaumet/squeeze/archive/refs/tags/v0.3.0.tar.gz"
   version "0.3.0"
-  sha256 "fb8926883583b443988dc275366fac4c72891bbb8f522a89c345ee7581510911"
+  sha256 "5631f550c06369497b14abfb737c666ec99292fdd29bd1b75c41890e472c09f9"
   license "MIT"
   head "https://github.com/aymericbeaumet/squeeze.git", branch: "main"
 
