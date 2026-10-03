@@ -3,9 +3,9 @@
 class SqueezeNightly < Formula
   desc "Extract rich information from any text (URIs, codetags, etc.) - nightly"
   homepage "https://github.com/aymericbeaumet/squeeze"
-  url "https://github.com/aymericbeaumet/squeeze/archive/ef0170c008d6b398e141b029584d3160730c25aa.tar.gz"
-  version "nightly-20260928-ef0170c"
-  sha256 "0a382e25fa6eb74857126731dfebe736d81f42930511220151b0d365543a9576"
+  url "https://github.com/aymericbeaumet/squeeze/archive/c0fdb4b34411f4ee03dd547731bf0fcbb6ba373a.tar.gz"
+  version "nightly-20261003-c0fdb4b"
+  sha256 "eb3ab9b48aed652ef1269673915c1ff4080a44d156045e9e54cc38621fab60f6"
   license "MIT"
 
   depends_on "rust" => :build
