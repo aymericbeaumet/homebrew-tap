@@ -4,28 +4,28 @@
 class Squeeze < Formula
   desc "Extract URLs, emails, IPs, hashes, TODOs, and more from any text"
   homepage "https://github.com/aymericbeaumet/squeeze"
-  version "0.4.0"
+  version "0.5.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/aymericbeaumet/squeeze/releases/download/v0.4.0/squeeze-v0.4.0-macos-arm64.tar.gz"
-      sha256 "a5f68498e1c73162a52e8fbd32392ca1bdcabbfcb37550b23bb4f4e81868e336"
+      url "https://github.com/aymericbeaumet/squeeze/releases/download/v0.5.0/squeeze-v0.5.0-macos-arm64.tar.gz"
+      sha256 "958e56b4f716dbffa735714d2d43f29109e47284da40285e37430dc602f88f01"
     end
     on_intel do
-      url "https://github.com/aymericbeaumet/squeeze/releases/download/v0.4.0/squeeze-v0.4.0-macos-amd64.tar.gz"
-      sha256 "a79c05527adf1df3ce96dde250a60c7dd6f97af7df12bc97916c77c486f2eb2d"
+      url "https://github.com/aymericbeaumet/squeeze/releases/download/v0.5.0/squeeze-v0.5.0-macos-amd64.tar.gz"
+      sha256 "33119005570bde2a2250f5b9e3038c394a3307261c706902ad430044a1ec3e68"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/aymericbeaumet/squeeze/releases/download/v0.4.0/squeeze-v0.4.0-linux-arm64.tar.gz"
-      sha256 "d6116d9a52b1d8a8fee40a267c1427019a69358a3660ecc65fa4ecb8da7b23bc"
+      url "https://github.com/aymericbeaumet/squeeze/releases/download/v0.5.0/squeeze-v0.5.0-linux-arm64.tar.gz"
+      sha256 "a2e1de00915d4ca01393dfac45dab544896369f4877cc1efc12eccd95ae3bd30"
     end
     on_intel do
-      url "https://github.com/aymericbeaumet/squeeze/releases/download/v0.4.0/squeeze-v0.4.0-linux-amd64.tar.gz"
-      sha256 "07efb406798ce4f5bd581a3b78f9c7ba061300e243d3a5aa08213d64603dd81c"
+      url "https://github.com/aymericbeaumet/squeeze/releases/download/v0.5.0/squeeze-v0.5.0-linux-amd64.tar.gz"
+      sha256 "adbc2d110b842021fc48f3d35d8837398503009b78f5ac02b3566570dad9542c"
     end
   end
 
