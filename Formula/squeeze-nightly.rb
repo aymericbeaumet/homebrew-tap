@@ -3,9 +3,9 @@
 class SqueezeNightly < Formula
   desc "Extract rich information from any text (URIs, codetags, etc.) - nightly"
   homepage "https://github.com/aymericbeaumet/squeeze"
-  url "https://github.com/aymericbeaumet/squeeze/archive/e92c5bd5aa82f78a3fb6112fb91c5298df2d7736.tar.gz"
-  version "nightly-20261003-e92c5bd"
-  sha256 "5cddd5e160550ad103751f8be4cfc32d644644c1526d1ad71f6e799d5a119a2d"
+  url "https://github.com/aymericbeaumet/squeeze/archive/d70d12cce16bb89ebc2c8359ec1f1b72af39749a.tar.gz"
+  version "nightly-20261018-d70d12c"
+  sha256 "6ed8a863498c962c84a457a7007f9b268522f61c458097fde88453ef3cfaec9b"
   license "MIT"
 
   depends_on "rust" => :build
@@ -14,7 +14,7 @@ class SqueezeNightly < Formula
 
   def install
     ENV["SQUEEZE_VERSION"] = version.to_s
-    system "cargo", "install", *std_cargo_args(path: "squeeze-cli")
+    system "cargo", "install", *std_cargo_args(path: ".")
   end
 
   test do
