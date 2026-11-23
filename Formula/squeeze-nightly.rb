@@ -4,9 +4,9 @@
 class SqueezeNightly < Formula
   desc "Extract URLs, emails, IPs, hashes, TODOs, and more from any text (nightly)"
   homepage "https://github.com/aymericbeaumet/squeeze"
-  url "https://github.com/aymericbeaumet/squeeze/archive/66491bc3ade21af5bec297ca1f025d68fb7d4efe.tar.gz"
-  version "nightly-20261122-66491bc"
-  sha256 "cf122efae2488c57fc484629f2c68418f0d8a24bfeccc27a26b7ac85fbb38e19"
+  url "https://github.com/aymericbeaumet/squeeze/archive/0a12ef6e408af40d4b71d1d4651ddac7fc80dda6.tar.gz"
+  version "nightly-20261123-0a12ef6"
+  sha256 "daf7de03ea0a23dcff28232882f800a22912defdb7ea211c29c74a55bac7a347"
   license "MIT"
 
   depends_on "rust" => :build
