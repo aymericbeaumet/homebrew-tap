@@ -1,19 +1,26 @@
 # This cask is automatically updated by aymericbeaumet/flash. DO NOT EDIT.
 
 cask "flash" do
-  version "1.1.0"
-  sha256 "76173f29467a4fba9b6f4fb98d1598719bebfc213a6599f3ab769d4e2332c82f"
+  version "2.0.0"
+  sha256 "cd9778d5e9beef398fbe854b84aa1335246079fe82e389c46e037e22f824f394"
 
-  url "https://github.com/aymericbeaumet/flash/releases/download/1.1.0/Flash-1.1.0.zip",
+  url "https://github.com/aymericbeaumet/flash/releases/download/2.0.0/Flash-2.0.0.zip",
       verified: "github.com/aymericbeaumet/flash/"
   name "Flash"
   desc "Keyboard hints to click any on-screen control"
   homepage "https://github.com/aymericbeaumet/flash"
 
-  depends_on macos: ">= :sonoma"
+  # Flash updates itself in place ([app] updates, docs/updates.md), so
+  # brew upgrade leaves it alone unless run with --greedy.
+  auto_updates true
+  depends_on macos: ">= :ventura"
 
   app "Flash.app"
   binary "#{appdir}/Flash.app/Contents/MacOS/flash", target: "flash"
+  manpage "#{appdir}/Flash.app/Contents/Resources/flash.1"
+  bash_completion "#{appdir}/Flash.app/Contents/Resources/completions/flash.bash"
+  zsh_completion "#{appdir}/Flash.app/Contents/Resources/completions/_flash"
+  fish_completion "#{appdir}/Flash.app/Contents/Resources/completions/flash.fish"
 
   # Autostart is owned by the app (SMAppService, [app] autostart). Remove the
   # LaunchAgent that earlier casks installed, then start Flash so it registers
